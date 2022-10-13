@@ -1,11 +1,11 @@
-#include <stdio.h>
+#include<stdio.h>
 
 /**
- *  main - Entry point
+ * main - Entry Point
  *
- *  Description: "This program is void"
- * 
- *  Return: Always 0 (Success)
+ * Description: "This program is void"
+ *
+ * Return: Always 0 (success)
  */
 
 int main(void)
