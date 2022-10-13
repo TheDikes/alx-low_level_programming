@@ -2,9 +2,11 @@
 /**
  * main - Entry Point
  *
- * Decription: "This program prints the size of various types on the computer"
+ * This program prints the size of various types of the computer
  *
- * Return: Always 0 (success)
+ * It also compiles and run on it
+ *
+ * Return: Always 0 (sucess)
  */
 
 int main(void)
