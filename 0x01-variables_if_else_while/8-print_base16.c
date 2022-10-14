@@ -4,7 +4,7 @@
  *
  * Decription: 'I love coding'
  *
- * Result: hexadecimal code
+ * Return: hexadecimal code
  */
 int main(void)
 {
