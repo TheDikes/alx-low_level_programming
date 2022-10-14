@@ -4,7 +4,7 @@
 /**
  * main - Entry point
  *
- * Description: 'The program should print last digit of n'
+ * Description: 'The program should print greater or less than'
  *
  * Return: (0) success
  */
@@ -17,15 +17,15 @@ int main(void)
 			printf("Last digit of %d is %d and is", n, n % 20);
 			if (n % 20 > 5)
 			{
-			printf("greater than 5\n");
+			printf(" greater than 5\n");
 			}
 			else if (n % 20 == 0)
 			{
-			printf("0\n");
+			printf(" 0\n");
 			}
 			else if (n % 20 < 6 && n % 20 != 0)
 			{
-			printf("less than 6 and not 0\n");
+			printf(" less than 6 and not 0\n");
 			}
 			return (0);
 }
