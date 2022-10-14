@@ -2,6 +2,8 @@
 /**
  * main - Entry level
  *
+ * Decription: 'I love coding'
+ *
  * Result: hexadecimal code
  */
 int main(void)
