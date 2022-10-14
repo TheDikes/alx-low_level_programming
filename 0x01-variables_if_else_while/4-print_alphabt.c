@@ -6,9 +6,9 @@
  */
 int main(void)
 {
-	char Lowercase; 
+	char Lowercase ; 
 		
-		for (Lowercase = 'a'; Lowercase <= 'z'; ++Lowercase) 
+		while (Lowercase = 'a'; Lowercase <= 'z'; Lowercase++) 
 		{
 			if (Lowercase != 'e' && Lowercase != 'q') 
 			{
