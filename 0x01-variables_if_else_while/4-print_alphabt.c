@@ -7,10 +7,9 @@
 int main(void)
 {
 	char Lowercase = 'a';
-	
-	while (Lowercase <= 'z') 
+	while (Lowercase <= 'z')
 	{
-		if (Lowercase != 'e' && Lowercase != 'q') 
+		if (Lowercase != 'e' && Lowercase != 'q')
 		{
 			putchar(Lowercase);
 		}
@@ -18,5 +17,4 @@ int main(void)
 	}
 	putchar('\n');
 	return (0);
-}
-		
+}	
