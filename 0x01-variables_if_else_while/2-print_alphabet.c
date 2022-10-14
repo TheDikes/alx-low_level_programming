@@ -2,13 +2,14 @@
 /**
  * main - Entry point
  *
- * Return: Always (0) success
+ * Return: Love is beautiful
  */
 int main(void)
 {
 	char Love;
 
 	for (Love = 'a'; Love <= 'z'; Love++)
-		putchar('Love\n');
+		putchar('Love')
+		putchar ('\n');
 	return (0);
 }
