@@ -2,7 +2,7 @@
 /**
  * main - Entry point
  *
- * Lowercase letters
+ * Return: Lowercase letters
  */
 int main(void)
 {
