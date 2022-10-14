@@ -1,20 +1,20 @@
-#include<stdio.h>
+#include <stdio.h>
 /**
  * main - Entry point
  *
- * Return: closing point
+ * Return: succesful
  */
 int main(void)
 {
-	char Lowercase = 'a';
-	while (Lowercase <= 'z')
+	char Love = 'a';
+	while (Love <= 'z')
 	{
-		if (Lowercase != 'e' && Lowercase != 'q')
+		if (Love != 'e' && Love != 'q')
 		{
-			putchar(Lowercase);
+			putchar(Love0);
 		}
-		Lowercase++;
+		Love++;
 	}
 	putchar('\n');
 	return (0);
-}	
+}
