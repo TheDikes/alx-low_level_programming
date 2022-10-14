@@ -6,9 +6,7 @@
  *
  * Description: 'The program should print last digit of n'
  *
- * It should also print a greater,less than or equal
- *
- * Return: Always (0) success
+ * Return: (0) success
  */
 int main(void)
 {
