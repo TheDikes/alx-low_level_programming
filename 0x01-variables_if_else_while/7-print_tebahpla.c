@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-	char Reverse; for (Reverse = 'a';  Reverse <= 'z'; --Reverse)
+	char Reverse; for (Reverse = 'z';  Reverse <= 'a'; Reverse--)
 		putchar(Reverse);
 	putchar('\n');
 	return (0);
