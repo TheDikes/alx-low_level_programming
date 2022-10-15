@@ -10,7 +10,7 @@ int main(void)
 {
 	int i, j, k; for (i = '0'; i < ':'; i++)
 	{
-		for (j = '1'; j < ':'; ++j)
+		for (j = '1'; j < ':'; j++)
 		{
 			for (k = '2'; k < ':'; k++)
 			{
