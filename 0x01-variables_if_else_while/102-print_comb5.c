@@ -6,9 +6,9 @@
  */
 int main(void)
 {
-	int c, d; for (c = 0; c < 100; ++c)
+	int c, d; for (c = 0; c <= 98; ++c)
 	{
-		for (d = 0; d < 100; ++d)
+		for (d = 0; d <= 99; ++d)
 		{
 			if (d > c)
 			{
