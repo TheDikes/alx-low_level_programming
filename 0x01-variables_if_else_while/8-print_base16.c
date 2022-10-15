@@ -8,9 +8,9 @@
  */
 int main(void)
 {
-	int num, alpha; for (num = 48; num <= 57; num++)
+	int num, alpha; for (num = 48; num <= 58; num++)
 		putchar(num);
-	for (alpha = 65; alpha <= 70; alpha++)
+	for (alpha = 65; alpha <= 71; alpha++)
 		putchar(alpha);
 	putchar('\n');
 	return (0);
