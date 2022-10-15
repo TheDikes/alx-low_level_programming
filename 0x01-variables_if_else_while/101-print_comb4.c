@@ -2,7 +2,9 @@
 /**
  * main - Entry point
  *
- * Return : 0 success
+ * Description: Prints all possible three digits combo
+ *
+ * Return: Always (0) success
  */
 int main(void)
 {
@@ -12,7 +14,7 @@ int main(void)
 		{
 			for (k = '2'; k <= '9'; k++)
 			{
-				if (i < j < k)
+				if (i < j && j < k)
 					putchar(i);
 				putchar(j);
 				putchar(k);
