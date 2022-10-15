@@ -10,7 +10,7 @@ int main(void)
 {
 	int num, alpha; for (num = '0'; num <= '9'; num++)
 		putchar(num);
-	for (alpha = 'a'; alpha <= 'f'; alpha++)
+	for (alpha = 65; alpha <= 70; alpha++)
 		putchar(alpha);
 	putchar('\n');
 	return (0);
