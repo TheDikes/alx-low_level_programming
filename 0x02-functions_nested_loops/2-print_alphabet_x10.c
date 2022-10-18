@@ -10,7 +10,6 @@ void print_alphabet_x10(void)
 	int alpha;
 	int times;
 
-	count = 0;
 
 	while (count < 10)
 	{
