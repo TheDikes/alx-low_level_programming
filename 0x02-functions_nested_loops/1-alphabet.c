@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 
 /*
@@ -5,14 +6,11 @@
  *
  *Description - prints the alphabet, in lowercase, followed by a new line
  *
- * Return: 0 success
  */
 print_alphabet(void)
 {
-	char alpha;
+	char alpha; for (love = 'a'; love <= 'z')
 
-	alpha = 'a';
-	while (alpha <= 'z')
 	{
 		_putchar(alpha), alpha++;
 	}
