@@ -3,19 +3,18 @@
 /*
  *main -Entry point
  *
- * Description - prints the alphabet, in lowercase, followed by a new line
+ *Description - prints the alphabet, in lowercase, followed by a new line
  *
  * Return: 0 success
  */
-void print_alphabet(void)
+print_alphabet(void)
 {
-	int love;
-	
-	love = 'a';
+	char alpha;
 
-	while (love <= 'z')
+	alpha = 'a';
+	while (alpha <= 'z')
 	{
-		_putchar(love), love++;
+		_putchar(alpha), alpha++;
 	}
-	_putchar('\n')
+	_putchar('\n');
 }
