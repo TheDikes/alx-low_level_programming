@@ -12,7 +12,7 @@ int main(void)
 
 	a = 0;
 	b = 0;
-	sum 0;
+	sum = 0;
 
 	for (i = 0; i < 1024; ++i)
 	{
