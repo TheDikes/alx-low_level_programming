@@ -1,10 +1,8 @@
 #include "main.h"
 /**
- * main - Entry point for program
+ * main - tests function that prints if integer is + or -
  *
- * Description - tests function that prints if integer is + or -
- *
- * Return: Always (0) success
+ * Return: 0
  */
 int main(void)
 {
