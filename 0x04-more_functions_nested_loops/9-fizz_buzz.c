@@ -18,7 +18,7 @@ int main(void)
 		else if (i % 3 == 0)
 		{
 			_putchar("Fizz\n");
-			if (i != 100)
+			if (i < 100)
 			{
 				_putchar(' ');
 			}
