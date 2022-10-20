@@ -1,27 +1,32 @@
 #include <stdio.h>
+#include "main.h"
 /**
  * main - Entry point for the program fizzbuzz test
  * Return: Always (0) success
  */
 int main(void)
 {
+	int i;
+
 	for (i = 1; i <= 100; i++)
 	{
 		if (i % 15 == 0)
 		{
-			_putchar("FizzBuzz\n");
+			_putchar("FizzBuzz");
 		}
 		else if (i % 5 == 0)
 		{
-			_putchar("Buzz\n");
+			_putchar("Buzz");
 		}
 		else if (i % 3 == 0)
 		{
-			_putchar("Fizz\n");
+			_putchar("Fizz");
 		}
 		else
 		{
-			_putchar("%d\n", i);
+			_putchar("%d", i);
 		}
 	}
+	_putchar("\n");
+	return (0);
 }
