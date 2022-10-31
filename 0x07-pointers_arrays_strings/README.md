@@ -1,4 +1,4 @@
-0x07. C - Even more pointers, arrays and strings C Project
+#0x07. C - Even more pointers, arrays and strings C Project#
 
 
 File: 0-memset.c is a function that fills memory with a constant byte.
@@ -28,9 +28,9 @@ File: 101-crackme_password contains the password for the crackme2 executable.
 You may need to install the openssl library to run the crakme2 program: sudo apt install libssl-dev
 Edit the source list sudo vim /etc/apt/sources.list to add the following line: deb http://security.ubuntu.com/ubuntu xenial-security main Then sudo apt update and sudo apt install libssl1.0.0
 
-OR
+#OR#
 
-The Advanced task no. 9
+##The Advanced task no. 9##
 open the file using vi -b 101-cranckme_password
 when you see the vi window, don't use the insert mode, just type :set binary and hit enter
 type :set noeol and hit enter
