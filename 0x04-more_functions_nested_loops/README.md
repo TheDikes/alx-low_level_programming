@@ -1,5 +1,5 @@
 # PROJECT 0x04. C - MORE FUNCTIONS, MORE NESTED LOOPS
-image
+
 Nested loop means a loop statement inside another loop statement. That is why nested loops are also called as “loop inside loop"
 (A nested loop is a loop inside the body of another loop)
 
